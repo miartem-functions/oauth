@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXP.Functions.OAuth.API", "EXP.Functions.OAuth.API\EXP.Functions.OAuth.API.csproj", "{931234C8-6FED-415C-A024-801BA8D642A4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{1F50088E-78F7-4685-A025-C3018ADC80CD}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\template.json = Deployment\template.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
