@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{1F50088E-78F7-4685-A025-C3018ADC80CD}"
 	ProjectSection(SolutionItems) = preProject
 		Deployment\template.json = Deployment\template.json
+		Deployment\template.parameters.json = Deployment\template.parameters.json
 	EndProjectSection
 EndProject
 Global
