@@ -118,7 +118,7 @@
                         {
                             "name": "WEBSITE_NODE_DEFAULT_VERSION",
                             "value": "6.5.0"
-                        }
+                        },
                         {
                             "name": "PROJECT",
                             "value": "EXP.Functions.OAuth/EXP.Functions.OAuth.API/EXP.Functions.OAuth.API.csproj"
