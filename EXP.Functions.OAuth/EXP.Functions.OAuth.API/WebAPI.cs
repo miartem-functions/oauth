@@ -12,10 +12,10 @@ namespace EXP.Functions.OAuth.API
     public static class WebAPI
     {
         [FunctionName("WebAPI")]
-        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)]HttpRequestMessage req, TraceWriter log)
+        public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "greeting")]HttpRequestMessage req, TraceWriter log)
         {
             string name = ClaimsPrincipal.Current.Identity.Name;
-            string message = $"'{name}' is asking";
+            string message = $"Hi there. This is '{name}'";
 
             log.Info(message);
 
