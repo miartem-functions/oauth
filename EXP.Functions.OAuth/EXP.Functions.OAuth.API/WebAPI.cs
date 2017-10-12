@@ -11,7 +11,7 @@ namespace EXP.Functions.OAuth.API
 {
     public static class WebAPI
     {
-        [FunctionName("WebAPI")]
+        [FunctionName("Greeting API")]
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "greeting")]HttpRequestMessage req, TraceWriter log)
         {
             string name = ClaimsPrincipal.Current.Identity.Name;
