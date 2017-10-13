@@ -8,7 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{1F50088E-78F7-4685-A025-C3018ADC80CD}"
 	ProjectSection(SolutionItems) = preProject
 		Deployment\template.json = Deployment\template.json
-		Deployment\template.parameters.json = Deployment\template.parameters.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{10AD19C9-EFA9-438D-A6D7-74B3718CE5EC}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Global

@@ -42,7 +42,7 @@
                 "description": "Source code repository URL"
             }
         },
-        "branch": {
+        "repositoryBranch": {
             "type": "string",
             "defaultValue": "master",
             "metadata": {
@@ -125,7 +125,24 @@
                         }
                     ]
                 }
-            }
+            },
+            "resources": [
+                {
+                    "type": "Microsoft.Web/sites/config",
+                    "name": "[concat(parameters('appName'), '/', 'authsettings')]",
+                    "apiVersion": "2016-08-01",
+                    "location": "[resourceGroup().location]",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/Sites', parameters('appName'))]"
+                    ],
+                    "properties": {
+                        "enabled": "true",
+                        "unauthenticatedClientAction": "RedirectToLoginPage",
+                        "defaultProvider": "AzureActiveDirectory",
+                        "issuer": "[concat('https://sts.windows.net/', subscription().tenantId, '/')]"
+                    }
+                }
+            ]
         },
         {
             "type": "Microsoft.Insights/components",
@@ -149,7 +166,7 @@
             ],
             "properties": {
                 "RepoUrl": "[parameters('repositoryURL')]",
-                "branch": "[parameters('branch')]",
+                "branch": "[parameters('repositoryBranch')]",
                 "isManualIntegration": true
             }
         }
