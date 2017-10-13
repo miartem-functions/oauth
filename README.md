@@ -4,7 +4,7 @@ Authorize Azure Active Directory users access to Azure Function using [Resource 
 Azure Function is exposed through HTTP trigger and can be activated via authorized request. Expected response is:
 <pre>Hi there. This is '{username}@{directory}.onmicrosoft.com'</pre>
 
-Client application should be able to compose HTTP requests in order to get an access token and call registered API. Such tools as [Fiddler](http://www.telerik.com/fiddler) can be used to mimic client application.
+Client application should be able to compose HTTP requests in order to get an access token and call registered API. Such tools as [Fiddler](http://www.telerik.com/fiddler) can be used to mimic the client application.
 
 # Prerequisites
 1. <div>
@@ -112,6 +112,7 @@ Client application should be able to compose HTTP requests in order to get an ac
    </div>
 
 4. Get Access Token for registered API    
+    
     **Template**    
     <pre>
     POST https://login.microsoftonline.com/{directoryID}/oauth2/token HTTP/1.1    
@@ -130,6 +131,7 @@ Client application should be able to compose HTTP requests in order to get an ac
     <b>grant_type</b>=password&<b>client_id</b>=d23a34a0-af8e-4198-8720-f1b47f598607&<b>client_secret</b>=GLmk7Kaj%2B%2B5dCC15%2B6gqAFhJcmpA5qvx1xVD%2F7TD9kA%3D&<b>resource</b>=https%3A%2F%2Fmicroforms.onmicrosoft.com%2F4c7c7f6a-bcf5-4f34-ba23-70b255742947&<b>username</b>=john.doe%40microforms.onmicrosoft.com&<b>password</b>=Yalo35041</pre>
 
 5. Call API with requested access token    
+    
     **Template**    
     <pre>
     GET https://fn-oauth-password-api.azurewebsites.net/api/greeting HTTP/1.1
