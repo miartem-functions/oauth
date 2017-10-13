@@ -2,6 +2,12 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+        "appId": {
+            "type": "string",
+            "metadata": {
+                "description": "Azure Active Directory registered Application ID"
+            }
+        },
         "appName": {
             "type": "string",
             "defaultValue": "[resourceGroup().name]",
@@ -139,9 +145,9 @@
                         "enabled": "true",
                         "unauthenticatedClientAction": "RedirectToLoginPage",
                         "defaultProvider": "AzureActiveDirectory",
-                        "clientId": "[guid(resourceGroup().id)]",
+                        "clientId": "[parameters('appId')]",
                         "issuer": "[concat('https://sts.windows.net/', subscription().tenantId, '/')]",
-                        "allowedAudiences": [ "[concat('https://', parameters('appName'), 'azurewebsites.net')]" ]
+                        "allowedAudiences": [ "[concat('https://', parameters('appName'), '.azurewebsites.net')]" ]
                     }
                 }
             ]

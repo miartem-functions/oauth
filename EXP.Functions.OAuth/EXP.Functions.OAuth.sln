@@ -17,6 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{781A03BF-FEED-407F-87ED-12DF41B83806}"
 	ProjectSection(SolutionItems) = preProject
+		Deployment\Documentation\Images\ApiRegistration.PNG = Deployment\Documentation\Images\ApiRegistration.PNG
+		Deployment\Documentation\Images\ApiRegistrationApplicationID.PNG = Deployment\Documentation\Images\ApiRegistrationApplicationID.PNG
+		Deployment\Documentation\Images\AppConfigurationAddApiAccess.PNG = Deployment\Documentation\Images\AppConfigurationAddApiAccess.PNG
+		Deployment\Documentation\Images\AppConfigurationAddKey.PNG = Deployment\Documentation\Images\AppConfigurationAddKey.PNG
+		Deployment\Documentation\Images\AppConfigurationCopyKey.PNG = Deployment\Documentation\Images\AppConfigurationCopyKey.PNG
+		Deployment\Documentation\Images\AppConfigurationEnableAccess.PNG = Deployment\Documentation\Images\AppConfigurationEnableAccess.PNG
+		Deployment\Documentation\Images\AppConfigurationGrantPermissions.PNG = Deployment\Documentation\Images\AppConfigurationGrantPermissions.PNG
+		Deployment\Documentation\Images\AppConfigurationKeys.PNG = Deployment\Documentation\Images\AppConfigurationKeys.PNG
+		Deployment\Documentation\Images\AppConfigurationPermissions.PNG = Deployment\Documentation\Images\AppConfigurationPermissions.PNG
+		Deployment\Documentation\Images\AppConfigurationSelectAPI.PNG = Deployment\Documentation\Images\AppConfigurationSelectAPI.PNG
+		Deployment\Documentation\Images\AppRegistration.PNG = Deployment\Documentation\Images\AppRegistration.PNG
+		Deployment\Documentation\Images\AppRegistrations.PNG = Deployment\Documentation\Images\AppRegistrations.PNG
 		Deployment\Documentation\Images\CustomDeployment.PNG = Deployment\Documentation\Images\CustomDeployment.PNG
 		Deployment\Documentation\Images\Resources.PNG = Deployment\Documentation\Images\Resources.PNG
 	EndProjectSection
