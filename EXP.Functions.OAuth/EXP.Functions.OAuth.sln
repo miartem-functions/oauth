@@ -29,8 +29,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{781A03
 		Deployment\Documentation\Images\AppConfigurationSelectAPI.PNG = Deployment\Documentation\Images\AppConfigurationSelectAPI.PNG
 		Deployment\Documentation\Images\AppRegistration.PNG = Deployment\Documentation\Images\AppRegistration.PNG
 		Deployment\Documentation\Images\AppRegistrations.PNG = Deployment\Documentation\Images\AppRegistrations.PNG
+		Deployment\Documentation\Images\AppRegistrationsApp.PNG = Deployment\Documentation\Images\AppRegistrationsApp.PNG
 		Deployment\Documentation\Images\CustomDeployment.PNG = Deployment\Documentation\Images\CustomDeployment.PNG
 		Deployment\Documentation\Images\Resources.PNG = Deployment\Documentation\Images\Resources.PNG
+		Deployment\Documentation\Images\UsageApplicationID.PNG = Deployment\Documentation\Images\UsageApplicationID.PNG
+		Deployment\Documentation\Images\UsageDirectoryID.PNG = Deployment\Documentation\Images\UsageDirectoryID.PNG
+		Deployment\Documentation\Images\UsageResourceURI.PNG = Deployment\Documentation\Images\UsageResourceURI.PNG
 	EndProjectSection
 EndProject
 Global
