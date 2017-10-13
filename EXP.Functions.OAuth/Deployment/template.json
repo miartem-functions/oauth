@@ -141,7 +141,7 @@
                         "defaultProvider": "AzureActiveDirectory",
                         "clientId": "[guid(resourceGroup().id)]",
                         "issuer": "[concat('https://sts.windows.net/', subscription().tenantId, '/')]",
-                        "allowedAudiences": ["[concat('https://', parameters('appName', 'azurewebsites.net'))]"]
+                        "allowedAudiences": [ "[concat('https://', parameters('appName'), 'azurewebsites.net')]" ]
                     }
                 }
             ]
