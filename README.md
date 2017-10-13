@@ -8,12 +8,12 @@ Authorize Azure Active Directory users access to Azure Function using [Resource 
 
 2. <div>
 	<p>Set unique resource group name</p>
-	<img src="Deployment%2FImages%2FCustomDeployment.PNG" width="600" title="Custom Deployment">
+	<img src="EXP.Functions.OAuth%2FDeployment%2FDocumentation%2FImages%2FCustomDeployment.PNG" width="600" title="Custom Deployment">
 	</p>
    </div>
 3. <div>
 	<p>Wait for successful deployment</p>
-	<img src="Deployment%2FImages%2FResources.PNG" width="600" title="Resources">
+	<img src="EXP.Functions.OAuth%2FDeployment%2FDocumentation%2FImages%2FResources.PNG" width="600" title="Resources">
 	</p>
 </div>
 

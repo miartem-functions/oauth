@@ -10,12 +10,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", 
 		Deployment\template.json = Deployment\template.json
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{10AD19C9-EFA9-438D-A6D7-74B3718CE5EC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{59A50ED3-8D02-42B2-88D7-15A159D41731}"
 	ProjectSection(SolutionItems) = preProject
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{59A50ED3-8D02-42B2-88D7-15A159D41731}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{781A03BF-FEED-407F-87ED-12DF41B83806}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Documentation\Images\CustomDeployment.PNG = Deployment\Documentation\Images\CustomDeployment.PNG
+		Deployment\Documentation\Images\Resources.PNG = Deployment\Documentation\Images\Resources.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{59A50ED3-8D02-42B2-88D7-15A159D41731} = {1F50088E-78F7-4685-A025-C3018ADC80CD}
+		{781A03BF-FEED-407F-87ED-12DF41B83806} = {59A50ED3-8D02-42B2-88D7-15A159D41731}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DD377D8-DA33-4210-8E35-B94A9F0ED18C}
