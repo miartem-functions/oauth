@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{781A03
 	ProjectSection(SolutionItems) = preProject
 		Deployment\Documentation\Images\ApiRegistration.PNG = Deployment\Documentation\Images\ApiRegistration.PNG
 		Deployment\Documentation\Images\ApiRegistrationApplicationID.PNG = Deployment\Documentation\Images\ApiRegistrationApplicationID.PNG
+		Deployment\Documentation\Images\ApiRegistrationResourceURI.PNG = Deployment\Documentation\Images\ApiRegistrationResourceURI.PNG
 		Deployment\Documentation\Images\AppConfigurationAddApiAccess.PNG = Deployment\Documentation\Images\AppConfigurationAddApiAccess.PNG
 		Deployment\Documentation\Images\AppConfigurationAddKey.PNG = Deployment\Documentation\Images\AppConfigurationAddKey.PNG
 		Deployment\Documentation\Images\AppConfigurationCopyKey.PNG = Deployment\Documentation\Images\AppConfigurationCopyKey.PNG
